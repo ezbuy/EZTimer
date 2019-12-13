@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A881D3E623A33D2200D980F9 /* EZTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A881D3E523A33D2200D980F9 /* EZTimer.swift */; };
+		A881D3E723A3601300D980F9 /* EZTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A881D3E523A33D2200D980F9 /* EZTimer.swift */; };
+		A881D3E823A3601300D980F9 /* EZTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A881D3E523A33D2200D980F9 /* EZTimer.swift */; };
 		A89EA5CA23A249A200FE26B4 /* EZTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89EA5C023A249A200FE26B4 /* EZTimer.framework */; };
 		A89EA5CF23A249A200FE26B4 /* EZTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EA5CE23A249A200FE26B4 /* EZTimerTests.swift */; };
 		A89EA5D123A249A200FE26B4 /* EZTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A89EA5C323A249A200FE26B4 /* EZTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -275,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A881D3E723A3601300D980F9 /* EZTimer.swift in Sources */,
 				A89EA5CF23A249A200FE26B4 /* EZTimerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A881D3E823A3601300D980F9 /* EZTimer.swift in Sources */,
 				A89EA5E523A249CE00FE26B4 /* ViewController.swift in Sources */,
 				A89EA5E123A249CE00FE26B4 /* AppDelegate.swift in Sources */,
 				A89EA5E323A249CE00FE26B4 /* SceneDelegate.swift in Sources */,
