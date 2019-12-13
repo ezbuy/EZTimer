@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A881D3E623A33D2200D980F9 /* EZTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A881D3E523A33D2200D980F9 /* EZTimer.swift */; };
 		A89EA5CA23A249A200FE26B4 /* EZTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89EA5C023A249A200FE26B4 /* EZTimer.framework */; };
 		A89EA5CF23A249A200FE26B4 /* EZTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EA5CE23A249A200FE26B4 /* EZTimerTests.swift */; };
 		A89EA5D123A249A200FE26B4 /* EZTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A89EA5C323A249A200FE26B4 /* EZTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A89EA5E123A249CE00FE26B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EA5E023A249CE00FE26B4 /* AppDelegate.swift */; };
+		A89EA5E323A249CE00FE26B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EA5E223A249CE00FE26B4 /* SceneDelegate.swift */; };
+		A89EA5E523A249CE00FE26B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EA5E423A249CE00FE26B4 /* ViewController.swift */; };
+		A89EA5E823A249CE00FE26B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89EA5E623A249CE00FE26B4 /* Main.storyboard */; };
+		A89EA5EA23A249D100FE26B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89EA5E923A249D100FE26B4 /* Assets.xcassets */; };
+		A89EA5ED23A249D100FE26B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89EA5EB23A249D100FE26B4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +30,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A881D3E523A33D2200D980F9 /* EZTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZTimer.swift; sourceTree = "<group>"; };
 		A89EA5C023A249A200FE26B4 /* EZTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89EA5C323A249A200FE26B4 /* EZTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZTimer.h; sourceTree = "<group>"; };
 		A89EA5C423A249A200FE26B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A89EA5C923A249A200FE26B4 /* EZTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89EA5CE23A249A200FE26B4 /* EZTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZTimerTests.swift; sourceTree = "<group>"; };
 		A89EA5D023A249A200FE26B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89EA5DE23A249CE00FE26B4 /* EZTimerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZTimerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89EA5E023A249CE00FE26B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A89EA5E223A249CE00FE26B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A89EA5E423A249CE00FE26B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A89EA5E723A249CE00FE26B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A89EA5E923A249D100FE26B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A89EA5EC23A249D100FE26B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A89EA5EE23A249D100FE26B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A89EA5DB23A249CE00FE26B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +78,7 @@
 			children = (
 				A89EA5C223A249A200FE26B4 /* EZTimer */,
 				A89EA5CD23A249A200FE26B4 /* EZTimerTests */,
+				A89EA5DF23A249CE00FE26B4 /* EZTimerExample */,
 				A89EA5C123A249A200FE26B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +88,7 @@
 			children = (
 				A89EA5C023A249A200FE26B4 /* EZTimer.framework */,
 				A89EA5C923A249A200FE26B4 /* EZTimerTests.xctest */,
+				A89EA5DE23A249CE00FE26B4 /* EZTimerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +98,7 @@
 			children = (
 				A89EA5C323A249A200FE26B4 /* EZTimer.h */,
 				A89EA5C423A249A200FE26B4 /* Info.plist */,
+				A881D3E523A33D2200D980F9 /* EZTimer.swift */,
 			);
 			path = EZTimer;
 			sourceTree = "<group>";
@@ -84,6 +110,20 @@
 				A89EA5D023A249A200FE26B4 /* Info.plist */,
 			);
 			path = EZTimerTests;
+			sourceTree = "<group>";
+		};
+		A89EA5DF23A249CE00FE26B4 /* EZTimerExample */ = {
+			isa = PBXGroup;
+			children = (
+				A89EA5E023A249CE00FE26B4 /* AppDelegate.swift */,
+				A89EA5E223A249CE00FE26B4 /* SceneDelegate.swift */,
+				A89EA5E423A249CE00FE26B4 /* ViewController.swift */,
+				A89EA5E623A249CE00FE26B4 /* Main.storyboard */,
+				A89EA5E923A249D100FE26B4 /* Assets.xcassets */,
+				A89EA5EB23A249D100FE26B4 /* LaunchScreen.storyboard */,
+				A89EA5EE23A249D100FE26B4 /* Info.plist */,
+			);
+			path = EZTimerExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +176,23 @@
 			productReference = A89EA5C923A249A200FE26B4 /* EZTimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A89EA5DD23A249CE00FE26B4 /* EZTimerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89EA5EF23A249D100FE26B4 /* Build configuration list for PBXNativeTarget "EZTimerExample" */;
+			buildPhases = (
+				A89EA5DA23A249CE00FE26B4 /* Sources */,
+				A89EA5DB23A249CE00FE26B4 /* Frameworks */,
+				A89EA5DC23A249CE00FE26B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZTimerExample;
+			productName = EZTimerExample;
+			productReference = A89EA5DE23A249CE00FE26B4 /* EZTimerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +205,12 @@
 				TargetAttributes = {
 					A89EA5BF23A249A200FE26B4 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					A89EA5C823A249A200FE26B4 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					A89EA5DD23A249CE00FE26B4 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -169,6 +230,7 @@
 			targets = (
 				A89EA5BF23A249A200FE26B4 /* EZTimer */,
 				A89EA5C823A249A200FE26B4 /* EZTimerTests */,
+				A89EA5DD23A249CE00FE26B4 /* EZTimerExample */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +250,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A89EA5DC23A249CE00FE26B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89EA5ED23A249D100FE26B4 /* LaunchScreen.storyboard in Resources */,
+				A89EA5EA23A249D100FE26B4 /* Assets.xcassets in Resources */,
+				A89EA5E823A249CE00FE26B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A881D3E623A33D2200D980F9 /* EZTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +276,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A89EA5CF23A249A200FE26B4 /* EZTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89EA5DA23A249CE00FE26B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89EA5E523A249CE00FE26B4 /* ViewController.swift in Sources */,
+				A89EA5E123A249CE00FE26B4 /* AppDelegate.swift in Sources */,
+				A89EA5E323A249CE00FE26B4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +298,25 @@
 			targetProxy = A89EA5CB23A249A200FE26B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A89EA5E623A249CE00FE26B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A89EA5E723A249CE00FE26B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A89EA5EB23A249D100FE26B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A89EA5EC23A249D100FE26B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A89EA5D223A249A200FE26B4 /* Debug */ = {
@@ -340,6 +442,7 @@
 		A89EA5D523A249A200FE26B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QFC4ENLC4Y;
@@ -356,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ezbuy..EZTimer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +468,7 @@
 		A89EA5D623A249A200FE26B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QFC4ENLC4Y;
@@ -388,6 +493,7 @@
 		A89EA5D823A249A200FE26B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QFC4ENLC4Y;
 				INFOPLIST_FILE = EZTimerTests/Info.plist;
@@ -406,6 +512,7 @@
 		A89EA5D923A249A200FE26B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QFC4ENLC4Y;
 				INFOPLIST_FILE = EZTimerTests/Info.plist;
@@ -415,6 +522,42 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ezbuy..EZTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A89EA5F023A249D100FE26B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFC4ENLC4Y;
+				INFOPLIST_FILE = EZTimerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezbuy..EZTimerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A89EA5F123A249D100FE26B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFC4ENLC4Y;
+				INFOPLIST_FILE = EZTimerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezbuy..EZTimerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,6 +590,15 @@
 			buildConfigurations = (
 				A89EA5D823A249A200FE26B4 /* Debug */,
 				A89EA5D923A249A200FE26B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89EA5EF23A249D100FE26B4 /* Build configuration list for PBXNativeTarget "EZTimerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89EA5F023A249D100FE26B4 /* Debug */,
+				A89EA5F123A249D100FE26B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
