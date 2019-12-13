@@ -1,0 +1,1 @@
+EZTimer is encapsulation about DispatchSourceTimer. Use it, you can create a timer easily, safely.
