@@ -6,6 +6,8 @@
 //  Copyright © 2019 ezbuy. All rights reserved.
 //
 
+#if canImport(UIKit)
+
 import UIKit
 
 public class TimerController {
@@ -172,3 +174,5 @@ public class EZCountDownTimer {
         self.suspend()
     }
 }
+
+#endif
